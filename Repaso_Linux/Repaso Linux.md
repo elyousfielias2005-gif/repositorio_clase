@@ -4,7 +4,7 @@
 
 Directorios mas importantes de un fichero Linux
 
-![image-20250925170330802](C:/Users/2dawv10/AppData/Roaming/Typora/typora-user-images/image-20250925170330802.png)
+![image-20250925170330802](./imagenes/image-20250925170330802.png)
 
 
 
@@ -21,9 +21,7 @@ cd /etc
 ls
 ```
 
-![image-20250929161236710](./../../AppData/Roaming/Typora/typora-user-images/image-20250929161236710.png)
-
-
+![Captura de pantalla 2025-09-29 161233](./imagenes/Captura%20de%20pantalla%202025-09-29%20161233.png)
 
 ### 2. Para entrar en un sistema Linux hace falta a) nombre de usuario, contraseña y dirección IP, b) nombre de usuario y contraseña o c) únicamente una contraseña.
 
@@ -39,9 +37,7 @@ En este caso valdría con escribir `pwd` y ejecutarlo una vez hecho
 pwd
 ```
 
-
-
-<img src="./../../AppData/Roaming/Typora/typora-user-images/image-20250929162940881.png" alt="image-20250929162940881" style="zoom:80%;" />
+![Captura de pantalla 2025-09-29 162940](./imagenes/Captura%20de%20pantalla%202025-09-29%20162940.png)
 
 ### 4. Muestra el contenido del directorio que esta justo a un nivel superior
 
@@ -52,7 +48,9 @@ cd ..
 ls
 ```
 
-![image-20250929163628489](./../../AppData/Roaming/Typora/typora-user-images/image-20250929163628489.png)
+![Captura de pantalla 2025-09-29 163555](./imagenes/Captura%20de%20pantalla%202025-09-29%20163555.png)
+
+
 
 ### 5. ¿En qué día de la semana naciste?, utiliza la instrucción cal para averiguarlo
 
@@ -63,22 +61,11 @@ sudo apt install ncal
 cal 12 2005
 ```
 
-![image-20250929165738560](./../../AppData/Roaming/Typora/typora-user-images/image-20250929165738560.png)
+
 
 
 
 ### 6. Muestra los archivos del directorio /bin
-
-```bash
-cd /bin
-ls
-```
-
-
-
-
-
-![Captura de pantalla 2025-09-29 170543](./../../Pictures/Screenshots/Captura%20de%20pantalla%202025-09-29%20170543.png)
 
 
 
@@ -93,8 +80,6 @@ En este caso hay que escribir este comando:
 ```bash
 ls -R /etc/
 ```
-
-![image-20250929171754170](./../../AppData/Roaming/Typora/typora-user-images/image-20250929171754170.png)
 
 
 
@@ -112,7 +97,7 @@ Este caso se hará de esta manera:
 ls -Slh /etc
 ```
 
-![image-20251002163625127](./../../AppData/Roaming/Typora/typora-user-images/image-20251002163625127.png)
+![Captura de pantalla 2025-10-02 163622](./imagenes/Captura%20de%20pantalla%202025-10-02%20163622.png)
 
 
 
@@ -124,7 +109,7 @@ ls -Sshr /bin
 
 ```
 
-![image-20251002164035716](./../../AppData/Roaming/Typora/typora-user-images/image-20251002164035716.png)
+![Captura de pantalla 2025-10-02 164033](./imagenes/Captura%20de%20pantalla%202025-10-02%20164033.png)
 
 
 
@@ -134,19 +119,17 @@ ls -Sshr /bin
 ls /
 ```
 
-![image-20251002164308691](./../../AppData/Roaming/Typora/typora-user-images/image-20251002164308691.png)
-
-
+![Captura de pantalla 2025-10-02 164303](./Captura%20de%20pantalla%202025-10-02%20164303-1761850677106-17.png)
 
 ### 13. Muestra el contenido del directorio raíz utilizando como argumento de ls una ruta relativa. Suponemos que el directorio actual es /home/elena/documentos.
 
-(Este lo copie)
+(Este lo copie)![Captura de pantalla 2025-10-02 164303](./imagenes/Captura%20de%20pantalla%202025-10-02%20164303.png)
 
 ```bash
 ls ../../..
 ```
 
-![image-20251002165729591](./../../AppData/Roaming/Typora/typora-user-images/image-20251002165729591.png)
+
 
 
 
@@ -156,9 +139,7 @@ ls ../../..
 mkdir gastos
 ```
 
-![image-20251002170121094](./../../AppData/Roaming/Typora/typora-user-images/image-20251002170121094.png)
-
-![image-20251002170133765](./../../AppData/Roaming/Typora/typora-user-images/image-20251002170133765.png)
+![Captura de pantalla 2025-10-02 170131](./imagenes/Captura%20de%20pantalla%202025-10-02%20170131.png)
 
 
 
@@ -174,7 +155,7 @@ Se recibirá un error de permiso denegado o acceso denegado diría yo.
 cat /etc/fstab
 ```
 
-![image-20251002170712366](./../../AppData/Roaming/Typora/typora-user-images/image-20251002170712366.png)
+![Captura de pantalla 2025-10-02 170710](./imagenes/Captura%20de%20pantalla%202025-10-02%20170710.png)
 
 
 
@@ -184,7 +165,7 @@ cat /etc/fstab
 head /etc/bash.bashrc
 ```
 
-![image-20251002171349499](./../../AppData/Roaming/Typora/typora-user-images/image-20251002171349499.png)
+![Captura de pantalla 2025-10-02 171337](./imagenes/Captura%20de%20pantalla%202025-10-02%20171337.png)
 
 
 
@@ -200,9 +181,7 @@ cd imagenes
 mkdir personales otras
 ```
 
-
-
-![image-20251002171659351](./../../AppData/Roaming/Typora/typora-user-images/image-20251002171659351.png)
+![Captura de pantalla 2025-10-02 171656](./imagenes/Captura%20de%20pantalla%202025-10-02%20171656.png)
 
 ### 19. Crea un fichero vacío dentro del directorio **música** con nombre **estilos_favoritos.txt**
 
@@ -212,9 +191,7 @@ cd multimedia
 touch estilos_favoritos.txt
 ```
 
-
-
-![image-20251006155619457](./../../AppData/Roaming/Typora/typora-user-images/image-20251006155619457.png)
+![Captura de pantalla 2025-10-06 155619](./imagenes/Captura%20de%20pantalla%202025-10-06%20155619.png)
 
 
 
@@ -228,9 +205,7 @@ nano estilos_favoritos-txt
 
 ```
 
-![image-20251006155954423](./../../AppData/Roaming/Typora/typora-user-images/image-20251006155954423.png)
-
-
+![Captura de pantalla 2025-10-06 155952](./imagenes/Captura%20de%20pantalla%202025-10-06%20155952.png)
 
 ### 21. Muestra todo el contenido de estilos_favoritos.txt
 
@@ -238,7 +213,7 @@ nano estilos_favoritos-txt
 cat estilos_favoritos.tx![image-20251006160705044](./../../AppData/Roaming/Typora/typora-user-images/image-20251006160705044.png)
 ```
 
-
+![Captura de pantalla 2025-10-06 160702](./imagenes/Captura%20de%20pantalla%202025-10-06%20160702.png)
 
 ### 22. Muestra las 3 primeras líneas de estilos_favoritos.txt
 
@@ -248,7 +223,7 @@ head -n3 estilos_favoritos.txt
 
 ![image-20251006161052641](./../../AppData/Roaming/Typora/typora-user-images/image-20251006161052641.png)
 
-
+![Captura de pantalla 2025-10-06 161046](./imagenes/Captura%20de%20pantalla%202025-10-06%20161046.png)
 
 
 
@@ -270,7 +245,7 @@ ls *.jpg
 ls /usr/bin/j*
 ```
 
-![image-20251006162348382](./../../AppData/Roaming/Typora/typora-user-images/image-20251006162348382.png)
+![Captura de pantalla 2025-10-06 162347](./imagenes/Captura%20de%20pantalla%202025-10-06%20162347.png)
 
 ### 3. Muestra los archivos que empiecen por k y tengan una a en la tercera posición, dentro del directorio /usr/bin.
 
@@ -286,7 +261,7 @@ ls /usr/bin/k?a*
 ls /bin/*n
 ```
 
-![image-20251006163254919](./../../AppData/Roaming/Typora/typora-user-images/image-20251006163254919.png)
+![Captura de pantalla 2025-10-06 163254](./Captura%20de%20pantalla%202025-10-06%20163254-1761850858689-37.png)
 
 ### 5. Muestra todos los archivos que hay en /etc y todos los que hay dentro de cada subdirectorio, de forma recursiva.
 
@@ -296,7 +271,7 @@ ls -R /etc
 
 
 
-![image-20251006163700551](./../../AppData/Roaming/Typora/typora-user-images/image-20251006163700551.png)
+![Captura de pantalla 2025-10-06 163659](./imagenes/Captura%20de%20pantalla%202025-10-06%20163659.png)
 
 
 
@@ -313,7 +288,7 @@ cd prueba/
 cp gzip gzip2
 ```
 
-![image-20251006165343900](./../../AppData/Roaming/Typora/typora-user-images/image-20251006165343900.png)
+![Captura de pantalla 2025-10-06 165342](./imagenes/Captura%20de%20pantalla%202025-10-06%20165342.png)
 
 
 
@@ -328,7 +303,7 @@ rmdir prueba2
 
 ```
 
-![image-20251006165405606](./../../AppData/Roaming/Typora/typora-user-images/image-20251006165405606.png)
+![Captura de pantalla 2025-10-06 165403](./imagenes/Captura%20de%20pantalla%202025-10-06%20165403.png)
 
 ### 8. Crea un fichero vacío con nombre “*?Hola caracola?*”. ¿Se puede? En caso de que se pudiera, ¿sería recomendable poner nombres así? Razona la respuesta.
 
@@ -338,7 +313,7 @@ Técnicamente se podría, pero no es lo mas recomendable
 touch \*\?Hola\ caracola\?\*
 ```
 
-![image-20251006170645407](./../../AppData/Roaming/Typora/typora-user-images/image-20251006170645407.png)
+![Captura de pantalla 2025-10-06 170630 - copia](./imagenes/Captura%20de%20pantalla%202025-10-06%20170630%20-%20copia.png)
 
 ### 9. Crea un directorio con nombre multimedia_pruebas y copia en él todo el contenido del directorio multimedia. A continuación crea en multimedia/video/ dos ficheros, uno con nombre peliculas.txt y otro con nombre actores.txt. Edita el fichero peliculas.txt e introduce el nombre de tu película favorita. A continuación, crea en multimedia_pruebas/video/ otro fichero que también tenga por nombre peliculas.txt, edítalo y esta vez escribe el nombre de tus cinco películas favoritas. Ahora haz una copia de todo el contenido de multimedia en multimedia_prueba de tal forma que sólo se copien los contenidos nuevos, es decir, si hay coincidencia en el nombre de un archivo se respetará el que se haya modificado más recientemente. Para comprobar que se ha hecho todo correctamente, basta mirar si en multimedia_prueba/video está el archivo vacío actores.txt y además el archivo peliculas.txt debe contener 5 películas y no 1.
 
