@@ -2,7 +2,19 @@ Elias El Yousfi Aoudar
 
 
 
-&nbsp;Objetivo General
+IMPORTANTE
+
+En el proceso perdí muchas de las fotos de las tareas. Puedes ver que puedo hacer que se sigan viendo en git hub en, por ejemplo, Repaso Linux.md
+
+
+
+https://github.com/elyousfielias2005-gif/repositorio\_clase
+
+
+
+
+
+ Objetivo General
 
 Mi tarea principal es crear un repositorio de Git público para organizar ejercicios de repaso de Linux y un ejercicio específico llamado "Forty". Tengo que seguir un flujo de trabajo riguroso de Git, incluyendo el manejo de ramas y fusiones.
 
